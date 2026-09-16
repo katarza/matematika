@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="sr-Cyrl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Математика — 1. разред</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1 class="title"><span style="color:#1c6690">М</span><span style="color:#2b87b8">А</span><span style="color:#2f8f6a">Т</span><span style="color:#e08a1e">Е</span><span style="color:#c9411f">М</span><span style="color:#123b4f">А</span><span style="color:#1c6690">Т</span><span style="color:#2b87b8">И</span><span style="color:#2f8f6a">К</span><span style="color:#e08a1e">А</span><span class="subtitle">Бројеви и сабирање</span></h1>
+    <div class="tools">
+      <button type="button" id="btnNew">Нови задатак</button>
+      <button type="button" id="btnCheck" class="primary">Провери</button>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs"></nav>
+
+  <div class="stage">
+  <section class="card task">
+    <div class="task-head">
+      <div>
+        <span class="label" id="taskKicker"></span>
+        <p class="prompt" id="prompt"></p>
+      </div>
+      <span class="status" id="status"></span>
+    </div>
+    <div id="taskBody"></div>
+    <div id="party" class="party"></div>
+  </section>
+
+  <section class="card pad">
+    <span class="label">Превуци број</span>
+    <div class="keys" id="keys"></div>
+  </section>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
